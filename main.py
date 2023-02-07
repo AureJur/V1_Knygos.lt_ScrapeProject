@@ -59,8 +59,8 @@ with webdriver.Chrome(
     all_pages = driver.find_elements(By.XPATH, "//div[2]/div/div[5]/div/ul//a")
     last_page_number = int((all_pages[-2]).text)
     # Navigation through pages to get the all_books urls
-    for k in range(2):
-        # for k in range(last_page_number):
+    # for k in range(2):
+    for k in range(last_page_number):
         # all_books = driver.find_elements(By.XPATH,
         #                                  "//*[@id = 'homepage']/div[3]/div[2]/div[3]/div[4]/div/section//a")
         all_books = driver.find_elements(By.CSS_SELECTOR, "a.product-link")
