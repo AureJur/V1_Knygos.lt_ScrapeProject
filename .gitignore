@@ -1,1 +1,4 @@
 .idea
+.venv
+logs/log.log
+report/v1_books.csv

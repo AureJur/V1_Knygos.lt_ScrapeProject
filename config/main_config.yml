@@ -1,0 +1,3 @@
+log_file: "logs/log.log"
+log_level: INFO
+url_to_scrape: "https://www.knygos.lt/"
