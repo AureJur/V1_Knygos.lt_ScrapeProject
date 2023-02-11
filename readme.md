@@ -1,6 +1,8 @@
 # Knygos.lt Scrape Project
 
 ## Introduction
+The useful tool to scrape books information from Knygos.lt section "Kompiuterija ir informacinės technologijos". 
+This tool scrape books Titles, Authors and Prices to csv file.
 
 ### Launch procedure
 - Launch command line
